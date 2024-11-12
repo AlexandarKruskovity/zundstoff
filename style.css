@@ -7,11 +7,16 @@
 }
 .fejlec{
 
-height: 300px;
-width: 1600px;
-display: block;
+height: 450px;
+width:auto;
+display: flex;
 color:white;
 font-size: large;
+background-image: url(img/header.jpg);
+padding-right: 10px;
+margin-right: 10px;
+
+
 
 }
 
@@ -19,7 +24,12 @@ font-size: large;
     color: black;
     height: 4000px;
     margin: auto;
+    padding-right: 10px;
 }
 .h1{
     text-align: center;
+    align-items: center;
+    
+
 }
+
