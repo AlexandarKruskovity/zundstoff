@@ -1,0 +1,25 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 100px;
+}
+.fejlec{
+
+height: 300px;
+width: 1600px;
+display: block;
+color:white;
+font-size: large;
+
+}
+
+.body{
+    color: black;
+    height: 4000px;
+    margin: auto;
+}
+.h1{
+    text-align: center;
+}
