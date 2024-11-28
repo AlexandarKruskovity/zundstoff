@@ -8,7 +8,7 @@
 .fejlec{
 
 height: 450px;
-width:auto;
+width: 1400px;;
 display: block;
 color:white;
 font-size: large;
@@ -28,24 +28,43 @@ padding-top: 50px;
 .body{
     color: black;
     height: 4000px;
-    margin: auto;
-    padding-right: 10px;
-   outline: auto;
+  
 }
-.h1{
+.Focim{
     text-align: center;
     align-items: center;
+  }
+
+.Intro{
+      text-align: center;
+      color: white;
+      height: 50px;
+      width: 120px;
+      display: block;
+      margin-left: 650px;
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 0.3rem;
+      text-decoration: none ;
+     
+     
+     
+    }
     
 
-}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
-    font-size: medium;
-    
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-image:none;
+  float: right;
+  display:flex;
+  position: absolute;
+right: 20px;
+top:15px;
+  
   }
   
   li {
@@ -61,39 +80,256 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  #intro{
-    height: 50px;
-    width: 120px;
-    display: block;
-    overflow: hidden;
+ 
+.video {
+    float: left;
+    width: 50%;
+    height: 300px;
+margin-top: 60px;
+margin-left:60px;
+   
+  
+
+    
     
   }
-  video {
-    float: left;
-    width: 30%;
-    height: 300px;
-    background: #ccc;
-    padding-left: -60px;
-  }
-  video ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  aside{
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: white;
-    height: 300px; 
-  }
-  section {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media (min-width: 300px) {
-    html {
-      width: 100%;
-      height: auto;
-    }
-  }
+.box{
+  float: left;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mehr{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 140px;
+  display: block;
+  margin-left: 950px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+}
+#kek{
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  font-weight: bolder;
+}
+.kurseplan{
+  background-color: rgb(174, 243, 243);
+  width:100%;
+  overflow:auto;
+ 
+
+
+
+}
+div.kurseplan div {
+  width:33%;  
+  float:left;
+}
+
+h2{
+  color: orangered;
+  font-weight: bold;
+}
+.mehr2{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 140px;
+  display: block;
+  margin-left: 600px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  margin-top: 50px;
+}
+.training{
+  float: right;
+  display:block;
+  align-items: center;
+  margin-right:300px ;
+  font-size: larger;
+}
+.kez{
+  float: left;
+  margin-left: 100px;
+  align-items: left;
+
+}
+.ubung{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 140px;
+  display: block;
+  margin-left: 600px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  
+}
+.h2{
+  text-align: center;
+  float: left;
+}
+.cim{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-weight: bolder;
+    display:flex;
+}
+.menu{
+  text-align: center;
+  background-color: rgb(174, 243, 243);
+overflow: hidden;
+}
+.ar{
+  background-color: rgb(174, 243, 243);
+  width:100%;
+  overflow:auto;
+  font-size: larger;
+}
+div.ar div {
+  width:33%;  
+  float:left;
+  display:block;
+}
+.preise{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 600px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+}
+.news{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+}
+.gutschein{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+}
+.plan{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  margin-top: 20px;
+}
+.gallery{
+  float: left;
+  display: flex;
+  color:white;
+  height: 300px;
+  width: 1407px;
+  font-size: larger;
+  font-weight: 200;
+  margin-top: 3px;
+}
+.kap{
+  text-align: center;
+  
+}
+.start{
+  background-image:  url(img/start.jpg);
+  width: auto;
+  height: auto;
+  
+}
+.grup{
+  background-image: url(img/szemelyi.jpg);
+  width: auto;
+  height: auto;
+  
+}
+.personal{
+  background-image: url(img/tartos.jpg);
+  width: auto;
+  height: auto;
+
+}
+.erfahren{
+  text-align: center;
+  color: white;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+  background-color:transparent;
+  border: 3px solid white;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  margin-top: 20px;
+}
+.intro{
+  text-align: center;
+  color: white;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+  background-color:transparent;
+  border: 3px solid white;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  margin-top: 20px;
+}
+.mission{
+  float: right;
+  display:flex;
+  align-items: center;
+  margin-left:100px ;
+  font-size: larger;
+  height: auto;
+  width: auto;
+}
+.m{
+  text-align: center;
+  display: flex;
+}
+.book{
+  text-align: center;
+  color: orangered;
+  height: 60px;
+  width: 200px;
+  display: block;
+  margin-right: 100px;
+  background-color:transparent;
+  border: 3px solid orangered;
+  border-radius: 0.3rem;
+  text-decoration: none ;
+  margin-top: 20px;
+}
