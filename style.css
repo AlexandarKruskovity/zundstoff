@@ -152,7 +152,7 @@ h2{
   display:block;
   align-items: center;
   margin-right:300px ;
-  font-size: larger;
+ 
 }
 .kez{
   float: left;
@@ -370,7 +370,7 @@ margin-bottom: -150px;
   overflow: hidden;
        background-image:none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   div{
     display: block;
     position: relative;
@@ -381,23 +381,59 @@ margin-bottom: -150px;
     float: left;
     text-align: center;
     width: 100%;
+    height: auto;
   }
 .Intro{
-  display: flex;
-    float: left;
+  display: block;
+    text-align: center;
     height: auto;
-    width: 100%;
+    width: 100px;
+    margin: auto;
 }
   .video{
-    align-items: center;
+
     height: auto;
-    margin:auto;
     width: 100%;
+    display: flex;
+    text-align: left;
   }
   .box{
     float: left;
     text-align: left;
-    display: flex;
+    display: block;
+    height: auto;
+
+  }
+  .mehr{
+    margin: auto;
+    width: 100px;
+  }
+  .kurseplan{
+    display: block;
+  }
+  .wod{
+    display: block;
+    float: left;
+
+  }
+  .basics{
+    display: block;
+    float: left;
+    text-align: left;
+  }
+  .strength{
+    display: block;
+    float: left;
+    text-align: left;
+  }
+  .mehr2{
+    margin: auto;
+    width: 100px;
+  }
+  .training{
+    float: left;
+    text-align: left;
+    display: block;
     height: auto;
 
   }
